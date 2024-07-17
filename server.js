@@ -12,7 +12,7 @@ const PASSWORD = process.env.PASSWORD;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(session({
-  secret: 'sua_chave_secreta_aqui', // Altere para uma chave secreta forte
+  secret: '12345', // Altere para uma chave secreta forte
   resave: false,
   saveUninitialized: true
 }));
