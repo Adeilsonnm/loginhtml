@@ -1,9 +1,10 @@
 {
-	"name": "loginhtml",
+	"name": "projeto-protegido",
 	"version": "1.0.0",
 	"main": "server.js",
 	"scripts": {
-	  "start": "node server.js"
+	  "start": "node server.js",
+	  "vercel-build": "npm install && npm run build"
 	},
 	"dependencies": {
 	  "dotenv": "^10.0.0",
